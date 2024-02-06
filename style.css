@@ -1,0 +1,53 @@
+
+header {
+    font-family: Arial, sans-serif;
+	text-align : center;
+	color : white;
+	margin : 20px;
+    background-color: black;
+}
+
+div {
+    font-family: Arial, sans-serif;
+	text-align : left;
+	margin : 20px;
+    background-color: #e0e0e0;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+	text-align : left;
+	margin : 20px;
+    background-color: #e0e0e0;
+}
+
+/* Style pour chaque ville */
+.ville {
+
+    display: flex; 
+    margin-right: 20px; 
+    vertical-align: top;
+    align-items: center; 
+    vertical-align: top;
+	
+}
+
+/* Aligne les blocs*/
+.aligne {
+	display : inline-block;
+}
+
+/* Style pour le titre de la ville */
+.ville h2 {
+    margin: 0; 
+}
+
+/* Style pour la température */
+.ville p {
+    margin: 0 10px; 
+}
+
+/* Style pour l'image */
+.ville img {
+    width: 5%; 
+}
